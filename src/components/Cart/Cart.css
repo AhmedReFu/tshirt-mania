@@ -1,0 +1,17 @@
+.cart-item {
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.cart-item img {
+    height: 100px;
+    width: 100px;
+    border: 4px solid goldenrod;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.orange {
+    background-color: orange;
+}
