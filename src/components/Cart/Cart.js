@@ -35,7 +35,7 @@ const Cart = ({ cart, handleRemoveFromCart }) => {
                     Trigonal</h3>
                 <p>Tin jon ke ki gift diba</p>
             </div>}
-            {cart.length !== 7 ? <p>Keep Adding</p> : <button>Remove All</button>}
+            {cart.length !== 7 ? <p>Keep Adding</p> : <button onClick={() => handleRemoveFromCart(cart)}>Remove All</button>}
             {cart.length === 4 && <button className='orange'>Review Order</button>}
         </div>
     );

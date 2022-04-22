@@ -22,7 +22,7 @@ const Grandpa = () => {
     }
 
     return (
-        <RingContext.Provider value={ornament}>
+        <RingContext.Provider value={[house, setHouse]}>
             <div className='grandpa'>
                 <h3>Grandpa</h3>
 
